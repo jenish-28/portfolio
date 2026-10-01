@@ -7,7 +7,7 @@ This portfolio showcases professional experience, technical skills, education, s
 ## 🌐 Portfolio
 
 **Production domain configured in the application:**  
-https://jenishkumarpatel.dev
+jenishpatel-portfolio.vercel.app
 
 The application is built as a single-page portfolio with sections for:
 
@@ -372,7 +372,7 @@ The portfolio focuses on software development across:
 
 ## 🔗 Links
 
-- **Portfolio:** https://jenishkumarpatel.dev
+- **Portfolio:** jenishpatel-portfolio.vercel.app
 - **GitHub:** https://github.com/jenish-28
 - **LinkedIn:** https://www.linkedin.com/in/jenishkumar-patel-634770394/
 
