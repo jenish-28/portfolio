@@ -200,7 +200,7 @@ The current project cards include:
 
 - **Finstgram API**
 - **Registration System**
-- **Analytics Dashboard**
+- **SmartFit**
 
 Project descriptions and technology tags are maintained in `lib/data.ts`.
 

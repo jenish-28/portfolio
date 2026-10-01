@@ -42,8 +42,8 @@ export const personalData = {
     "Clean architecture advocate",
   ],
   languages: [
-    { name: "English (B2)"},
-    { name: "German (A2)"},
+    { name: "English (B2)" },
+    { name: "German (A2)" },
   ],
   resumeUrl: "https://drive.google.com/file/d/1SqT7vKY8RRFoCoYEjx6nqVGjvtNgL1OJ/view?usp=sharing",
 } as const;
@@ -136,11 +136,11 @@ export const projects: ProjectItem[] = [
     liveUrl: "https://example.com",
   },
   {
-    name: "Analytics Dashboard",
+    name: "SmartFit",
     description:
-      "A data-driven dashboard experience featuring real-time charts, advanced filtering, and responsive UX crafted for decision-ready insights.",
-    tags: ["React", "TypeScript", "Tailwind"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+      "A native Android fitness tracker built with Kotlin, featuring workout tracking, history, live motion data from device sensors, and real-time movement visualization.",
+    tags: ["Kotlin", "Android", "XML", "AndroidX"],
+    githubUrl: "https://github.com/jenish-28/SmartFit",
+    liveUrl: "",
   },
 ];
