@@ -6,8 +6,8 @@ This portfolio showcases professional experience, technical skills, education, s
 
 ## 🌐 Portfolio
 
-**Production domain configured in the application:**  
-jenishpatel-portfolio.vercel.app
+**Live Portfolio:**  
+[https://jenishpatel-portfolio.vercel.app](https://jenishpatel-portfolio.vercel.app)
 
 The application is built as a single-page portfolio with sections for:
 
