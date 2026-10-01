@@ -372,7 +372,8 @@ The portfolio focuses on software development across:
 
 ## 🔗 Links
 
-- **Portfolio:** jenishpatel-portfolio.vercel.app
+- **Portfolio:** [https://jenishpatel-portfolio.vercel.app](https://jenishpatel-portfolio.vercel.app)
+
 - **GitHub:** https://github.com/jenish-28
 - **LinkedIn:** https://www.linkedin.com/in/jenishkumar-patel-634770394/
 
