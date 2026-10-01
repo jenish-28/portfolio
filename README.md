@@ -1,39 +1,222 @@
-https://jenishpatel-portfolio.vercel.app
+# Jenishkumar Patel — Developer Portfolio
 
+A modern, responsive personal portfolio built with **Next.js, React, TypeScript, and Tailwind CSS**.
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+The portfolio presents my software development experience, technical skills, education, selected projects, and a contact form for professional opportunities.
 
-## Getting Started
+## 🌐 Live Portfolio
 
-First, run the development server:
+**[Visit my portfolio](https://jenishpatel-portfolio.vercel.app)**
+
+---
+
+## ✨ Features
+
+- 🎯 Clean, modern developer-focused design
+- 📱 Fully responsive across desktop, tablet, and mobile
+- 🧑‍💻 Hero section with developer introduction
+- 👤 About section
+- 🛠️ Technical skills grouped by category
+- 💼 Professional experience timeline
+- 🚀 Selected projects section
+- 🎓 Education section
+- 📩 Working contact form
+- ✉️ Contact form email delivery with Resend
+- 🎨 Smooth UI animations with Framer Motion
+- ⚡ Next.js App Router architecture
+- 🔎 ESLint and TypeScript support
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+
+- **Next.js 16**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
+- **Framer Motion**
+- **Lucide React**
+
+### Backend / Services
+
+- **Next.js Route Handlers**
+- **Resend**
+- **REST API**
+
+### Development Tools
+
+- **Node.js**
+- **npm**
+- **ESLint**
+- **Git & GitHub**
+- **Vercel**
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── app/
+│   ├── api/
+│   │   └── contact/
+│   │       └── route.ts       # Contact form API
+│   ├── globals.css             # Global styles
+│   ├── layout.tsx              # Root layout and metadata
+│   ├── page.tsx                # Main portfolio page
+│   └── icon.tsx                # Dynamic site icon
+│
+├── components/
+│   ├── About.tsx
+│   ├── Contact.tsx
+│   ├── Education.tsx
+│   ├── Experience.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── Navbar.tsx
+│   ├── Projects.tsx
+│   └── Skills.tsx
+│
+├── lib/
+│   └── data.ts                 # Portfolio content and data
+│
+├── public/                     # Static assets
+├── package.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/jenish-28/portfolio.git
+cd portfolio
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env.local` file in the project root:
+
+```env
+RESEND_API_KEY=your_resend_api_key
+```
+
+The API key is used by the contact form to send portfolio messages through Resend.
+
+> **Important:** Never commit `.env.local` or expose your API key publicly.
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **http://localhost:3000** in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📩 Contact Form
 
-## Learn More
+The portfolio includes a server-side contact endpoint:
 
-To learn more about Next.js, take a look at the following resources:
+```text
+POST /api/contact
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The endpoint:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Receives the visitor's name, email, and message.
+2. Validates required fields.
+3. Validates the email format.
+4. Requires a minimum message length.
+5. Sends the message using **Resend**.
+6. Returns an appropriate success or error response.
 
-## Deploy on Vercel
+The email configuration is kept server-side through the `RESEND_API_KEY` environment variable.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🏗️ Production Build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Run the production server:
+
+```bash
+npm start
+```
+
+Run ESLint:
+
+```bash
+npm run lint
+```
+
+---
+
+## ☁️ Deployment
+
+This project is designed for deployment on **Vercel**.
+
+Typical deployment flow:
+
+```text
+GitHub Repository
+       ↓
+     Vercel
+       ↓
+Production Portfolio
+```
+
+When deploying, make sure the `RESEND_API_KEY` environment variable is configured in the Vercel project settings.
+
+---
+
+## 👨‍💻 About Me
+
+I'm **Jenishkumar Patel**, a Full-Stack Software Developer based in Germany and an M.Sc. Applied Computer Science student.
+
+My development interests include:
+
+- Full-stack web development
+- React and Next.js applications
+- Python and FastAPI backends
+- REST API development
+- AI and automation
+- Clean and maintainable software architecture
+
+I'm interested in opportunities where I can build practical software, solve real-world problems, and continue growing as a software developer.
+
+---
+
+## 📬 Connect With Me
+
+- **Portfolio:** [jenishpatel-portfolio.vercel.app](https://jenishpatel-portfolio.vercel.app)
+- **GitHub:** [@jenish-28](https://github.com/jenish-28)
+- **LinkedIn:** [Jenishkumar Patel](https://www.linkedin.com/in/jenishkumar-patel-634770394/)
+- **Email:** 16jenishkumarpatel@gmail.com
+
+---
+
+## 📄 License
+
+This project is a personal portfolio website.
+
+© Jenishkumar Patel
